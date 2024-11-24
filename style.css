@@ -625,9 +625,9 @@ nav#navbar {
     padding: 110px;
 }
 #billboard .banner-content {
-    width: 50%;
+    width: 49%;
     padding-top: 15px;
-    /* margin-right: 5px; */
+    margin-right: 5px;
 }
 .banner-content h3.banner-title {
     font-family: "Jost", Georgia, serif;
@@ -741,7 +741,7 @@ nav#navbar {
 
 #about .iframe-container {
     position: relative; /* 父容器相对定位 */
-    width: 100%; /* 宽度占满父元素 */
+    width: 80%; /* 宽度占满父元素 */
     padding-top: 56.25%; /* 高度与宽度的比例为16:9（9/16 = 0.5625） */
     overflow: hidden; /* 确保内容不会溢出 */
 }
@@ -750,8 +750,8 @@ nav#navbar {
     position: absolute; /* 绝对定位 */
     top: 0;
     left: 0;
-    width: 80%; /* 占满父容器的宽度 */
-    height: 80%; /* 占满父容器的高度 */
+    width: 100%; /* 占满父容器的宽度 */
+    height: 100%; /* 占满父容器的高度 */
     border: none; /* 去掉边框 */
 }
 
