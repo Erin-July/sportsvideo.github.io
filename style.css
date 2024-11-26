@@ -711,15 +711,31 @@ nav#navbar {
     background: #f9f9f9;
 }
 #about .company-detail figure {
-    width: 45%;
-    margin-right: 85px;
+    width: 48%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#about .company-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
 #about .detail-entry {
     width: 45%;
     margin-top: 100px;
 }
 #about .detail-entry .detail-wrap {
     width: 85%;
+}
+
+#about .detail-entry p{
+    font-family: Georgia, serif;
+    text-align: justify;
+    /* font-weight: 800; */
 }
 
 #about .abstract-entry {
@@ -780,16 +796,38 @@ nav#navbar {
 /*----- Services Section
 --------------------------------------------------------------*/
 #services {
-    padding: 150px 0;
+    padding: 60px 0px;
     position: relative;
 }
 #services .detail-entry {
-    width: 36%;
-    padding-top: 125px;
+    width: 45%;
+    padding-top: 60px;
+    padding-left: 5%;
 }
 #services .service-grid {
     width: 55%;
 }
+
+#services .detail-entry p{
+    font-family: Georgia, serif;
+    text-align: justify;
+    /* font-weight: 800; */
+}
+
+#services .service-content figure {
+    width: 48%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .service-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
 #services .column {
     width: 30%;
 }
