@@ -757,8 +757,8 @@ nav#navbar {
 
 #about .iframe-container {
     position: relative; /* 父容器相对定位 */
-    width: 80%; /* 宽度占满父元素 */
-    padding-top: 56.25%; /* 高度与宽度的比例为16:9（9/16 = 0.5625） */
+    width: 70%; /* 宽度占满父元素 */
+    padding-top: 39.375%; /* 高度与宽度的比例为16:9（9/16 = 0.5625）*/
     overflow: hidden; /* 确保内容不会溢出 */
 }
 
