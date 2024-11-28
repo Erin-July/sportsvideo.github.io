@@ -645,6 +645,13 @@ nav#navbar {
     width: 50%;
     z-index: 2;
 }
+
+#billboard figure.main-logo {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 #billboard small{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
